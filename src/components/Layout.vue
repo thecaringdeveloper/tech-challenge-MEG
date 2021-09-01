@@ -40,7 +40,6 @@
   export default{
     name: 'Layout',
     components: {Card},
-    comments: [Card],
     props: {
       gameDetails: Object,
       rightGuesses: Number,
