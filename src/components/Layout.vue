@@ -64,7 +64,7 @@
         this.showLostMessage = true
       },
       rightGuesses() {
-        if (this.showRightGuessMessage < 5) {
+        if (this.showRightGuessMessage < 5 && this.showRightGuessMessage > 0) {
           this.showRightGuessMessage = true
         }
       }
