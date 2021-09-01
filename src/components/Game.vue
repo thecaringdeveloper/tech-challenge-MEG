@@ -63,7 +63,6 @@ export default {
     },
     won() {
       this.gameDetails.won++
-      this.init()
     },
     lost() {
       this.gameDetails.lost++
